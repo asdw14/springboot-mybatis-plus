@@ -14,4 +14,5 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public interface UserMapper extends BaseMapper<User> {
+    void updateById(long l);
 }
