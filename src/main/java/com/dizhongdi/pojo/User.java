@@ -30,5 +30,7 @@ public class User {
     private Date updateTime;
     @Version
     private Integer version;
+    @TableLogic //逻辑删除
+    private Integer deleted;
 
 }

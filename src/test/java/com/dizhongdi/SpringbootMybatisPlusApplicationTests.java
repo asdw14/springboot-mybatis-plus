@@ -101,4 +101,10 @@ class SpringbootMybatisPlusApplicationTests {
         map.put("id",1424013626208956419L);
         userMapper.deleteByMap(map);
     }
+
+    @Test
+    public void deleted(){
+        userMapper.deleteById(6L);
+
+    }
 }
